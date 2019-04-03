@@ -27,7 +27,6 @@ class String
         count += 1 if word.question?
         count += 1 if word.exclamation?
       end
-      binding.pry
       return count
     end
 
