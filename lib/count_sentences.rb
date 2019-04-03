@@ -17,7 +17,7 @@ class String
   def count_sentences
     sentences = []
     sentence_array = self.split
-binding.pry
+# binding.pry
     if sentence_array.empty?
       return 0
     else
