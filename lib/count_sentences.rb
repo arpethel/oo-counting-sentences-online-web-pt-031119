@@ -21,6 +21,7 @@ class String
     if sentence_array.empty?
       return 0
     else
+      binding.pry
       sentence_array.size
     end
 
