@@ -23,7 +23,7 @@ binding.pry
     else
       sentence_array.size
     end
-    
+
 
     # sentence_array.each do |phrase|
     #   if phrase.sentence?
