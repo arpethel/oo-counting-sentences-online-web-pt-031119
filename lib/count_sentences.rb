@@ -15,15 +15,15 @@ class String
   end
 
   def count_sentences
-    sentences = []
+    count = 0
     sentence_array = self.split
-# binding.pry
+
     if sentence_array.empty?
       return 0
     else
-      # binding.pry
       sentence_array.each do |word|
         binding.pry
+        count += 1 if word.sentence?
       end
     end
 
