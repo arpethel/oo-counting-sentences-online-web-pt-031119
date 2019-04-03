@@ -17,9 +17,9 @@ class String
   def count_sentences
     sentences = []
     sentence_array = self.split
-
+binding.pry
     return 0 if sentence_array.empty?
-    
+
     # sentence_array.each do |phrase|
     #   if phrase.sentence?
     #     sentences << phrase
