@@ -21,8 +21,10 @@ class String
     if sentence_array.empty?
       return 0
     else
-      binding.pry
-      sentence_array.size
+      # binding.pry
+      sentence_array.each do |word|
+        binding.pry
+      end
     end
 
 
