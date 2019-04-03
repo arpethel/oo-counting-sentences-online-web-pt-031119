@@ -15,27 +15,27 @@ class String
   end
 
   def count_sentences
-    sentences = []
-    sentence_array = self.split
-
-    return 0 if sentence_array.empty?
-
-    sentence_array.each do |phrase|
-      if phrase.sentence?
-        sentences << phrase
-      end
-      if phrase.question?
-        sentences << phrase
-      end
-      if phrase.exclamation?
-        sentences << phrase
-      end
-        # count = sentences.count
-      if sentences.count > 0
-        return sentences.count
-      else
-        return 0
-      end
+    # sentences = []
+    # sentence_array = self.split
+    # 
+    # return 0 if sentence_array.empty?
+    # 
+    # sentence_array.each do |phrase|
+    #   if phrase.sentence?
+    #     sentences << phrase
+    #   end
+    #   if phrase.question?
+    #     sentences << phrase
+    #   end
+    #   if phrase.exclamation?
+    #     sentences << phrase
+    #   end
+    #     # count = sentences.count
+    #   if sentences.count > 0
+    #     return sentences.count
+    #   else
+    #     return 0
+    #   end
 
     #   if phrase.sentence?
     #     if phrase[-1] == "." && phrase[-2] != "." #|| (phrase[-1] == "?")
