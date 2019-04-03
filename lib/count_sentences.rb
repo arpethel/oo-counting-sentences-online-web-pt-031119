@@ -22,9 +22,13 @@ class String
       return 0
     else
       sentence_array.each do |word|
-        binding.pry
+        # binding.pry
         count += 1 if word.sentence?
+        count += 1 if word.question?
+        count += 1 if word.exclamation?
       end
+      binding.pry
+      return count
     end
 
 
