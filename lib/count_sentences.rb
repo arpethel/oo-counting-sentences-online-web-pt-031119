@@ -18,7 +18,12 @@ class String
     sentences = []
     sentence_array = self.split
 binding.pry
-    return 0 if sentence_array.empty?
+    if sentence_array.empty?
+      return 0
+    else
+      sentence_array.size
+    end
+    
 
     # sentence_array.each do |phrase|
     #   if phrase.sentence?
